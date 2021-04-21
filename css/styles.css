@@ -81,6 +81,8 @@ img {
 /* logo */
 .header-logo {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
@@ -90,6 +92,10 @@ img {
 
 span {
   color: var(--accent-color);
+}
+
+.header-border {
+  border-bottom: 1px solid var(--header-border-color);
 }
 
 /* list style */
@@ -103,7 +109,6 @@ span {
 .navigation-contacts {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--header-border-color);
 }
 
 .navigation-contacts .list {
@@ -252,7 +257,7 @@ span {
 }
 
 .card-text {
-  padding: 30px 55px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -333,6 +338,7 @@ span {
 .project {
   font-size: 16px;
   line-height: 1.88;
+  margin: 0;
 }
 
 /* footer */
@@ -363,7 +369,7 @@ span {
 }
 
 .address-row:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-map-contact {
